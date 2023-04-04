@@ -1,0 +1,83 @@
+<!Doctype html>
+<html>
+<head>
+    <script type="text/javascript" src="JS/main.js"></script>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gruppo&display=swap" rel="stylesheet">
+    <title>Grade Remarks</title>
+</head>
+<body>
+    <div class="main_container">
+        <div class="title_container">
+            <h1>G</h1>
+            <h1>R</h1>
+            <h1>A</h1>
+            <h1>D</h1>
+            <h1>I</h1>
+            <h1>N</h1>
+            <h1>G</h1>
+        </div>
+        <div style="margin-top: 18vh;" class="title_container">
+            <h1>S</h1>
+            <h1>Y</h1>
+            <h1>S</h1>
+            <h1>T</h1>
+            <h1>E</h1>
+            <h1>M</h1>
+        </div>
+        <div class="container">
+            <div class="text_fields">
+                <div>
+                    <p style="margin-right: 9.0vw;">Computer Programming 1</p>
+                    <input type="text" id="comprog">
+                </div>
+                <div>
+                    <p style="margin-right: 8.1vw;">Purposive Communication</p>
+                    <input type="text" id="purcom">
+                </div>
+                <div>
+                    <p style="margin-right: 6vw;">Readings in Philippine History</p>
+                    <input type="text" id="rph">
+                </div>
+                <div>
+                    <p style="margin-right: 8.8vw;">The Contemporary World</p>
+                    <input type="text" id="tcw">
+                </div>
+                <div>
+                    <p style="margin-right: 3.2vw;">Mathematics in the Modern World</p>
+                    <input type="text" id="mmw">
+                </div>
+                <div>
+                    <p style="margin-right: 10vw;">Understanding the Self</p>
+                    <input type="text" id="uts">
+                </div>
+                <div>
+                    <p style="margin-right: 14.8vw;">Art Appreciation</p>
+                    <input type="text" id="artapp">
+                </div>
+            </div>
+            <div class="remarks">
+                <div class="display">DISPLAY:</div>
+                <div class="result">
+                    <div id="ave">
+                        Average - 
+                    </div>
+                    <div id="rem">
+                        Remark - 
+                    </div>
+                    <div id="desc">
+                        Descriptor - 
+                    </div>
+                </div>
+            </div>
+            <div class="buttons">
+                <button type="button" onclick="buttonPress()">Calculate</button>
+        
+                <button type="button" onclick="reset()">Reset</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
